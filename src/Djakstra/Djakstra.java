@@ -26,12 +26,14 @@ public class Djakstra {
         }
 
     }
+    //Retorna a sigla do aeroporto com a menor distancia
     String minDistance(Hashtable<String,Double> dist, Hashtable<String,Boolean>sptSet)
     {
         // Inicializa o valor minimo
         Double min = Double.MAX_VALUE;
         String string_min_index = "";
 
+        //Verificar qual o aeroporo com a menor distancia
         for (Airports El: ListOfAirports){
             if (sptSet.get(El.getSigla()) == false && dist.get(El.getSigla()) <= min) {
                 min = dist.get(El.getSigla());
@@ -40,20 +42,19 @@ public class Djakstra {
         }
         return string_min_index;
     }
-
-    // Substituir por algo mais util
+    //Retorna o index do aeroporto com a sigla passada por parametro.
     int minDistance(String Aux)
     {
         // Inicializa o valor minimo
         Double min = Double.MAX_VALUE;
         int min_index=-1,count=0;
+        //Verifica qual o aeroporto tem o mesmo index
         for (Airports El: ListOfAirports){
             if(El.getSigla()==Aux){min_index=count;break;}
             count++;
         }
         return min_index;
     }
-
     void printMatrix(){//Printar a matriz de adjacencia
         for(Airports El : ListOfAirports){
             System.out.println(El.getSigla());
