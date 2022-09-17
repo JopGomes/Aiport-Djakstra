@@ -1,41 +1,41 @@
-id;iata;icao;name;location;street_number;street;city;cidade;estado;country_iso;country;postal_code;phone;latitude;longitude;uct;website,,
-1669;CZS;SBCZ;Cruzeiro do Sul International Airport;Cruzeiro do Sul,Acre,Brazil;;;;Cruzeiro do Sul;Acre;BR;Brazil;69980-970;+55 68 3311-1900;-7.598349;-72.77343;-300;http://www4.infraero.gov.br/aeroportos/aeroporto-internacional-cruzeiro-do-sul/
-6294;RBR;SBRB;Placido de Castro International Airport;Rio Branco,Acre,Brazil;;;;;;;;;;0;0;0;
-4561;MCZ;SBMO;Zumbi dos Palmares International Airport;Maceio,Alagoas,Brazil;104;Rodovia BR;;Rio Largo;Alagoas;BR;Brazil;57100-971;+55 82 3036-5200;-9.511861;-35.793182;-180;http://www4.infraero.gov.br/
-4552;MCP;SBMQ;Alberto Alcolumbre International Airport;Macapa,Amapa,Brazil;S/N;Rua Hildemar Maia;;Macapa;Amapa;BR;Brazil;68908-119;+55 96 3223-2323;0.0500081;-51.06711;-180;http://www4.infraero.gov.br/aeroportos/aeroporto-internacional-de-macapa-alberto-alcolumbre/
-4500;MAO;SBEG;Eduardo Gomes International Airport;Manaus,Amazonas,Brazil;1350;Av. Santos Dumont;;Manaus;Amazonas;BR;Brazil;69041-000;+55 92 3652-1210;-3.0358474;-60.046326;-240;http://www4.infraero.gov.br/aeroportos/aeroporto-internacional-de-manaus-eduardo-gomes/
-7252;TBT;SBTT;Tabatinga International Airport;Tabatinga,Amazonas,Brazil;s/n;Praca Marechal-do-ar Eduardo Gomes;;Tabatinga;Amazonas;BR;Brazil;69640-000;+55 97 3412-1100;-4.25038;-69.93939;-240;http://www.infraero.gov.br/
-7019;SSA;SBSV;Deputado Luis Eduardo Magalhaes International Airport;Salvador,Bahia,Brazil;;;;Salvador;Bahia;BR;Brazil;41520-970;+55 71 3204-1010;-12.911098;-38.33124;-180;http://www4.infraero.gov.br/aeroportos/aeroporto-internacional-de-salvador-dep-luis-eduardo-magalhaes
-2363;FOR;SBFZ;Pinto Martins – Fortaleza International Airport;Fortaleza,Ceara,Brazil;;;;Fortaleza;Ceara;BR;Brazil;60741-900;+55 85 3392-1200;-3.7771554;-38.533096;-180;http://www.infraero.gov.br/index.php/br/aeroportos/ceara/aeroporto-internacional-pinto-martins.html
-953;BSB;SBBR;Brasilia International Airport (Presidente J. Kubitschek Int'l Airport);Brasilia,Distrito Federal,Brazil;;Lago Sul;;Brasilia;Distrito Federal;BR;Brazil;71608-900;+55 61 3364-9000;-15.869737;-47.917236;-180;http://www.bsb.aero/
-7994;VIX;SBVT;Eurico de Aguiar Salles Airport;Vitoria,Espirito Santo,Brazil;3800;Avenida Fernando Ferrari;;Vitoria;Espirito Santo;BR;Brazil;29075-920;+55 27 3235-6300;-20.257648;-40.283535;-180;http://www.infraero.gov.br/index.php/br/aeroportos/espirito-santo/aeroporto-de-vitoria-eurico-de-aguiar-salles-vitoria-es.html
-2787;GYN;SBGO;Santa Genoveva Airport;Goiania,Goias,Brazil;s/n;Alameda 4;;Goiania;Goias;BR;Brazil;74672-410;+55 62 3265-1500;-16.632303;-49.216347;-180;http://www4.infraero.gov.br/aeroportos/aeroporto-de-goiania-santa-genoveva/
-6876;SLZ;SBSL;Marechal Cunha Machado International Airport;Sao Luis,Maranhao,Brazil;3503;Avenida dos Libaneses;;Sao Luis;Maranhao;BR;Brazil;65056-480;+55 98 3217-6100;-2.5849926;-44.23488;-180;http://www.infraero.gov.br/
-1273;CGB;SBCY;Marechal Rondon International Airport;Cuiaba,Mato Grosso,Brazil;s/n;Avenida Joao Ponce de Arruda;;Varzea Grande;Mato Grosso;BR;Brazil;78110-900;+55 65 3614-2500;-15.653079;-56.117268;-240;http://www4.infraero.gov.br/aeroportos/aeroporto-internacional-de-cuiaba-marechal-rondon/
-1288;CGR;SBCG;Campo Grande International Airport;Campo Grande,Mato Grosso do Sul,Brazil;s/n;Av. Duque de Caxias;;Campo Grande;Mato Grosso do Sul;BR;Brazil;79101-901;+55 67 3368-6000;-20.468693;-54.67412;-240;http://www4.infraero.gov.br/aeroportos/aeroporto-internacional-de-campo-grande/
-1404;CMG;SBCR;Corumba International Airport;Corumba,Mato Grosso do Sul,Brazil;S/n;Rua Santos Dumont;;Corumba;Mato Grosso do Sul;BR;Brazil;79332-150;+55 67 3231-3322;-19.013786;-57.66343;-240;http://www4.infraero.gov.br/aeroportos/aeroporto-internacional-de-corumba/
-8983;PMG;SBPP;Ponta Pora International Airport;Ponta Pora,Mato Grosso do Sul,Brazil;;;Ponta Pora;;;BR;Brazil;;;-22.549639;-55.702614;-240;
-1429;CNF;SBCF;Tancredo Neves International Airport (Confins Int'l Airport);Belo Horizonte,Minas Gerais,Brazil;s/n;LMG-800;;Confins;Minas Gerais;BR;Brazil;33500-900;+55 31 3689-2700;-19.634098;-43.965397;-180;http://www.bh-airport.com.br/
-633;BEL;SBBE;Val de Cans International Airport;Belem,Para,Brazil;s/n;Avenida Julio Cesar;;Belem;Para;BR;Brazil;66115-970;+55 91 3210-6000;-1.3820615;-48.477524;-180;http://www4.infraero.gov.br/aeroportos/aeroporto-internacional-de-belem-val-de-cans-julio-cezar-ribeiro/
-7054;STM;SBSN;Santarem-Maestro Wilson Fonseca Airport;Santarem,Para,Brazil;s/n;Praca Eduardo Gomes;;Santarem;Para;BR;Brazil;;+55 93 3522-4328;-2.4248295;-54.786243;-180;http://www4.infraero.gov.br/aeroportos/aeroporto-de-santarem-maestro-wilson-fonseca/
-3473;JPA;SBJP;Presidente Castro Pinto International Airport;Joao Pessoa,Paraiba,Brazil;s/n;Aeroporto Internacional Presidente Castro Pinto;;Joao Pessoa;Paraiba;BR;Brazil;58308-901;+55 83 3041-4200;-7.146009;-34.948776;-180;http://www4.infraero.gov.br/aeroportos/aeroporto-internacional-de-joao-pessoa-presidente-castro-pinto/
-1613;CWB;SBCT;Afonso Pena International Airport;Curitiba,Parana,Brazil;;Av. Rocha Pombo;;Sao Jose dos Pinhais;Parana;BR;Brazil;83010-900;+55 41 3381-1515;-25.532713;-49.17248;-180;http://www.infraero.gov.br/index.php/br/aeroportos/parana/aeroporto-afonso-pena.html
-3166;IGU;SBFI;Foz do Iguacu International Airport;Foz do Iguacu,Parana,Brazil;;;;Foz do Iguacu;Parana;BR;Brazil;85863-900;+55 45 3521-4200;-25.59771;-54.488514;-180;http://www4.infraero.gov.br/aeroportos/aeroporto-internacional-de-foz-do-iguacu-cataratas/contato/
-6335;REC;SBRF;Recife/Guararapes–Gilberto Freyre International Airport;Recife,Pernambuco,Brazil;s/n;Praca Ministro Salgado Filho;;Recife;Pernambuco;BR;Brazil;51210-902;+55 81 3322-4188;-8.125932;-34.924015;-180;http://www4.infraero.gov.br/aeroportos/aeroporto-internacional-do-recife-guararapes-gilberto-freyre/
-5894;PHB;SBPB;Parnaiba-Prefeito Dr. Joao Silva Filho International Airport;Parnaiba,Piaui,Brazil;s/n;Rodovia BR-343;;Parnaiba;Piaui;BR;Brazil;64206-260;+55 86 3315-3300;-2.895248;-41.729797;-180;http://www4.infraero.gov.br/aeroportos/aeroporto-internacional-de-parnaiba-prefeito-dr-joao-silva-filho/
-7359;THE;SBTE;Teresina–Senador Petronio Portella Airport;Teresina,Piaui,Brazil;;;;Teresina;Piaui;BR;Brazil;64006-700;+55 86 3133-6270;-5.063463;-42.82119;-180;http://www4.infraero.gov.br/aeroportos/aeroporto-de-teresina-senador-petronio-portella/
-2563;GIG;SBGL;Rio de Janeiro–Galeao International Airport;Rio de Janeiro,Brazil;s/nº;Av. Vinte de Janeiro;;Rio de Janeiro;Rio de Janeiro;BR;Brazil;21941-900;+55 21 3004-6050;-22.805265;-43.25663;-180;http://www.riogaleao.com/,
-1254;CFB;SBCB;Cabo Frio International Airport;Cabo Frio,Rio de Janeiro,Brazil;s/n;Estrada Velha do Arraial do Cabo;;Cabo Frio;Rio de Janeiro;BR;Brazil;28900-000;+55 22 2647-9500;-22.925629;-42.079235;-180;http://www.aeroportodecabofrio.com.br/
-8988;NAT;SBSG;Sao Goncalo do Amarante–Governador Aluizio Alves International Airport;Natal,Rio Grande do Norte,Brazil;;;;Sao Goncalo do Amarante;Rio Grande do Norte;BR;Brazil;59290-000;+55 84 3343-6060;-5.7679067;-35.364033;-180;http://www.natal.aero/
-6029;POA;SBPA;Salgado Filho International Airport;Porto Alegre,Rio Grande do Sul,Brazil;;;;Porto Alegre;State of Rio Grande do Sul;BR;Brazil;;+55 51 3358-2000;-29.993473;-51.17538;-180;http://www4.infraero.gov.br/aeroportos/aeroporto-internacional-de-porto-alegre-salgado-filho/
-693;BGX;SBBG;Comandante Gustavo Kraemer Airport;Bage,Rio Grande do Sul,Brazil;;;Bage;Bage;Rio Grande do Sul;BR;Brazil;;+55 53 3242-7702;-31.389591;-54.11207;-180;http://www4.infraero.gov.br/aeroportos/aeroporto-internacional-de-bage-comandante-gustavo-kraemer/
-5861;PET;SBPK;Joao Simoes Lopes Neto International Airport;Pelotas,Rio Grande do Sul,Brazil;S/n;Avenida Zeferino Costa;;Pelotas;Rio Grande do Sul;BR;Brazil;96070-480;+55 53 3223-1227;-31.715822;-52.33069;-180;http://www.infraero.gov.br/
-7845;URG;SBUG;Rubem Berta International Airport;Uruguaiana,Rio Grande do Sul,Brazil;s/n;Acesso Marechal Setembrino de Carvalho;;Uruguaiana;Rio Grande do Sul;BR;Brazil;97513-780;+55 55 3413-1314;-29.783995;-57.0357;-180;http://www4.infraero.gov.br/aeroportos/aeroporto-internacional-de-uruguaiana-rubem-berta/
-6182;PVH;SBPV;Governador Jorge Teixeira de Oliveira International Airport;Porto Velho,Rondonia,Brazil;S/N;Avenida Governador Jorge Teixeira;;Porto Velho;Rondonia;BR;Brazil;76803-970;+55 69 3219-7450;-8.71417;-63.89832;-240;
-1028;BVB;SBBV;Boa Vista International Airport;Boa Vista,Roraima,Brazil;;;;Boa Vista;State of Roraima;BR;Brazil;;+55 95 3198-0144;2.8419237;-60.69259;-240;http://www.infraero.gov.br/
-2320;FLN;SBFL;Hercilio Luz International Airport;Florianopolis,Santa Catarina,Brazil;3393;Avenida Deputado Diomicio Freitas;;Florianopolis;Santa Catarina;BR;Brazil;88047-900;+55 48 3331-4000;-27.670118;-48.545967;-180;http://www.infraero.gov.br/index.php/br/aeroportos/santa-catarina/aeroporto-internacional-de-florianopolis.html
-5426;NVT;SBNF;Navegantes–Ministro Victor Konder International Airport;Navegantes,Santa Catarina,Brazil;1297;Rua Osmar Gaya;;Navegantes;Santa Catarina;BR;Brazil;88372-900;+55 47 3342-9200;-26.880535;-48.649086;-180;http://www4.infraero.gov.br/aeroportos/aeroporto-internacional-de-navegantes-ministro-victor-konder/
-2695;GRU;SBGR;Sao Paulo–Guarulhos International Airport;Sao Paulo,Brazil;s/nº;Rod. Helio Smidt;;Guarulhos;Sao Paulo;BR;Brazil;07190-100;+55 11 2445-2945;-23.430573;-46.47304;-180;http://www.gru.com.br/,
-7941;VCP;SBKP;Viracopos/Campinas International Airport;Sao Paulo / Campinas,Sao Paulo,Brazil;km 66;Rodovia Santos Dumont;;Campinas;Sao Paulo;BR;Brazil;13055-900;+55 19 3725-5000;-23.008205;-47.13757;-180;http://www.viracopos.com/
-6245;QSC;SDSC;Mario Pereira Lopes Airport;Sao Carlos,Sao Paulo,Brazil;;;;;;;;;;0;0;0;
-199;AJU;SBAR;Santa Maria Airport;Aracaju,Sergipe,Brazil;3249;Terminal Drive;Santa Maria;Santa Barbara County;California;US;United States;93455;+1 805-922-1726;34.89914;-120.44778;-420;http://www.santamariaairport.com/
+"iata","nome","cidade","estado","latitude","longitude"
+"CZS",Cruzeiro do Sul International Airport,Cruzeiro do Sul,Acre,-7.598349,-72.77343
+"RBR",Placido de Castro International Airport,Rio Branco,Acre,-9.85848,-67.89590
+"MCZ",Zumbi dos Palmares International Airport,Rio Largo,Alagoas,-9.511861,-35.793182
+"MCP",Alberto Alcolumbre International Airport,Macapa,Amapa,0.0500081,-51.06711
+"MAO",Eduardo Gomes International Airport,Manaus,Amazonas,-3.0358474,-60.046326
+"TBT",Tabatinga International Airport,Tabatinga,Amazonas,-4.25038,-69.93939
+"SSA",Deputado Luis Eduardo Magalhaes International Airport,Salvador,Bahia,-12.911098,-38.33124
+"FOR",Pinto Martins Fortaleza International Airport,Fortaleza,Ceara,-3.7771554,-38.533096
+"BSB",Brasilia International Airport (Presidente J. Kubitschek Int'l Airport),Brasilia,Distrito Federal,-15.869737,-47.917236
+"VIX",Eurico de Aguiar Salles Airport,Vitoria,Espirito Santo,-20.257648,-40.283535
+"GYN",Santa Genoveva Airport,Goiania,Goiais,-16.632303,-49.216347
+"SLZ",Marechal Cunha Machado International Airport,Sao Luis,Maranhao,-2.5849926,-44.23488
+"CGB",Marechal Rondon International Airport,Varzea Grande,Mato Grosso,-15.653079,-56.117268
+"CGR",Campo Grande International Airport,Campo Grande,Mato Grosso do Sul,-20.468693,-54.67412
+"CMG",Corumba International Airport,Corumba,Mato Grosso do Sul,-19.013786,-57.66343
+"PMG",Ponta Pora International Airport,Ponta Pora,Mato Grosso do Sul,-22.549639,-55.702614
+"CNF",Tancredo Neves International Airport (Confins Int'l Airport),Confins,Minas Gerais,-19.634098,-43.965397
+"BEL",Val de Cans International Airport,Belem,Para,-1.3820615,-48.477524
+"STM",Santarem-Maestro Wilson Fonseca Airport,Santarem,Para,-2.4248295,-54.786243
+"JPA",Presidente Castro Pinto International Airport,Joao Pessoa,Paraiba,-7.146009,-34.948776
+"CWB",Afonso Pena International Airport,Sao Jose dos Pinhais,Parana,-25.532713,-49.17248
+"IGU",Foz do Iguacu International Airport,Foz do Iguacu,Parana,-25.59771,-54.488514
+"REC",Recife/Guararapes Gilberto Freyre International Airport,Recife,Pernambuco,-8.125932,-34.924015
+"PHB",Parnaiba-Prefeito Dr. Joao Silva Filho International Airport,Parnaiba,Piaui,-2.895248,-41.729797
+"THE",Teresina Senador Petronio Portella Airport,Teresina,Piaui,-5.063463,-42.82119
+"GIG",Rio de Janeiro Galeao International Airport,Rio de Janeiro,Rio de Janeiro,-22.805265,-43.25663
+"CFB",Cabo Frio International Airport,Cabo Frio,Rio de Janeiro,-22.925629,-42.079235
+"NAT",Sao Goncalo do Amarante Governador Aluizio Alves International Airport,Sao Goncalo do Amarante,Rio Grande do Norte,-5.7679067,-35.364033
+"POA",Salgado Filho International Airport,Porto Alegre,Rio Grande do Sul,-29.993473,-51.17538
+"BGX",Comandante Gustavo Kraemer Airport,Bage,Rio Grande do Sul,-31.389591,-54.11207
+"PET",Joao Simaes Lopes Neto International Airport,Pelotas,Rio Grande do Sul,-31.715822,-52.33069
+"URG",Rubem Berta International Airport,Uruguaiana,Rio Grande do Sul,-29.783995,-57.0357
+"PVH",Governador Jorge Teixeira de Oliveira International Airport,Porto Velho,Rondonia,-8.71417,-63.89832
+"BVB",Boa Vista International Airport,Boa Vista,Roraima,2.8419237,-60.69259
+"FLN",Hercalio Luz International Airport,Florianopolis,Santa Catarina,-27.670118,-48.545967
+"NVT",Navegantes Ministro Victor Konder International Airport,Navegantes,Santa Catarina,-26.880535,-48.649086
+"GRU",Sao Paulo Guarulhos International Airport,Guarulhos,Sao Paulo,-23.430573,-46.47304
+"VCP",Viracopos/Campinas International Airport,Campinas,Sao Paulo,-23.008205,-47.13757
+"QSC",Mario Pereira Lopes Airport,Sao Carlos,Sao Paulo,-21.87670,-47.90684
+"AJU",Santa Maria Airport,Aracaju,Sergipe,-10.98412,-37.07328

@@ -36,7 +36,7 @@ public class Menu {
     }
     void firstMessage(){
 
-        System.out.println("Bem-Vindo ao Sistema de Caminhos Baseado em Distancia(SCBD)! Selecione uma opcao:\n [1]Ver os aeroportos  [2] Realizar uma pesquisa");
+        System.out.println("Bem-Vindo ao Sistema de Caminhos Baseado em Distancia(SCBD)! Selecione uma opcao:\n [1] Ver os aeroportos  [2] Realizar uma pesquisa");
         String PerguntaUm = input.next();
         switch (PerguntaUm) {
             case "1" -> listarEstados();
@@ -82,8 +82,8 @@ public class Menu {
             }
         }
         while(true){
-            System.out.println("Digite o nome do estado");
-            String State = input.next().toLowerCase();
+            System.out.println("Digite um nome de estado valido para saber os aeroportos desse estado");
+            String State = input.nextLine().toLowerCase();
             if(NameStates.contains(State)){ListarAeroportos(State);break;}
         }
 
@@ -95,15 +95,14 @@ public class Menu {
             System.out.println("\nDigite o nome do aeroporto de origem");
             origin = input.next().toUpperCase();
             if(NameOfAirports.contains(origin)){break;}
-            System.out.println("\nEscolha o estado de origem e escreva uma sigla valida");
             listarEstados();
+
         }
         while(true){
             System.out.println("\nDigite o nome do aeroporto de destino");
             destiny = input.next().toUpperCase();
             if(NameOfAirports.contains(destiny)){break;}
             listarEstados();
-            System.out.println("\nEscolha o estado de destino e escreva uma sigla valida");
         }
         String caminho = TestDjakstra.search(origin,destiny);
         mySQL.saveSearch(origin,destiny,caminho);

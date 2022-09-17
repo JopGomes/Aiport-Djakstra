@@ -15,6 +15,7 @@ public class Airports {
         this.estado = estado;
     }
 
+    // Metodos para conseguir recuperar e alterar os parâmetros
     public String getSigla() {
         return sigla;
     }
