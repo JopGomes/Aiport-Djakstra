@@ -12,18 +12,21 @@ public class MySQL {
     private String server;
     private String database;
     private MysqlDataSource dataSource;
-    public MySQL(){
+    public MySQL(String user,String password,String server,String database){
         ListOfAirports = new ArrayList<>(); // Create an ArrayList object
-        user="root";
-        password="password";
-        server="localhost";
-        database="airportdjakstra";
+        this.user=user;
+        this.password=password;
+        this.server=server;
+        this.database=database;
         dataSource = new MysqlDataSource();
         dataSource.setUser(user);
         dataSource.setPassword(password);
         dataSource.setServerName(server);
         dataSource.setDatabaseName(database);
         readTable(dataSource, ListOfAirports);
+    }
+    public MySQL(){
+        this("root","02136021qQ@","localhost","airportdjakstra");
     }
 
     public ArrayList<Airports> getListOfAirports() {
@@ -38,12 +41,10 @@ public class MySQL {
             ResultSet rs = stmt.executeQuery("SELECT iata, latitude, longitude, cidade,estado FROM airport_data");
             while (rs.next()){
                 String sigla  = rs.getString("iata");
-                double latitude= rs.getInt("latitude");
-                double longitude = rs.getInt("longitude");
+                double latitude= rs.getDouble("latitude");
+                double longitude = rs.getDouble("longitude");
                 String cidade = rs.getString("cidade");
                 String  estado = rs.getString("estado");
-                longitude/=(1.0*(10^5));
-                latitude/=(1.0*(10^5));
                 Airports newAirport = new Airports(sigla,latitude,longitude,cidade,estado);
                 list.add(newAirport);
             }
