@@ -1,8 +1,5 @@
 # Trabalho Airport Dijkstra
 
----
-
----
 
 # Introdução
 
@@ -17,7 +14,6 @@ Dentro da pasta “src” foram adicionadas 4 packages cujo nomes são o mesmo d
 - Djakstra → Um package com uma classe que busca calcular o menor caminho entre dois aeroportos, respeitando a condição imposta usando o algoritmo de **Dijkstra.**
 - Menu → Um package com uma classe que irá implementar a relação do usuário com o código. Ou seja, fazendo com que no console todas as informações necessárias para as buscas estejam de fácil acesso.
 
-![Untitled](Trabalho%20Airport%20Dijkstra%20d8d663bca9904589a3b5dd81144370a4/Untitled.png)
 
 O arquivo main irá ser onde a aplicação terá sua sessão propriamente dita sendo iniciada, e o arquivo airport_data.csv possui todas as informações necessárias sobre os aeroportos internacionais  no Brasil.
 
