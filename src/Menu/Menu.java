@@ -1,14 +1,14 @@
 package Menu;
 
+import Thread.*;
+
 import Airports.*;
 import Djakstra.Djakstra;
 import MySQL.MySQL;
 
-import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.Scanner;
+import java.util.*;
 
-public class Menu {
+public class Menu{
     //Varaivel para acessar o algoritmo de Dijakstra
     private Djakstra TestDjakstra;
     //ArrayList com todos os aeroportos
@@ -21,6 +21,8 @@ public class Menu {
     private HashSet<String> NameStates;
     //Variavel para acessar a classe MySQL
     private MySQL mySQL;
+    private Vector<String[]> string_pair;
+
     public Menu(){
         //Instanciando as variaveis
         mySQL = new MySQL();
@@ -28,12 +30,28 @@ public class Menu {
         ListOfAirports = mySQL.getListOfAirports();
         NameOfAirports = new ArrayList<>();
         NameStates = new HashSet<>();
+
+
+        //Com Thread
+        RunThread.test = new Djakstra();
+        RunThread.quantidade=0;
+        RunThread.solution=new Vector<>();
+        string_pair= new Vector<>();
+
         //Adicionando as informações
         for(Airports El: ListOfAirports){
             // de siglas na lista de nomes
             NameOfAirports.add(El.getSigla());
             // de estados na lista de estados
             NameStates.add(El.getEstado().toLowerCase());
+            for(Airports T: ListOfAirports){
+
+                String[] par = {El.getSigla(),T.getSigla()};
+                if(par[0].compareTo(par[1])>0){
+                    string_pair.add(par);
+                }
+            }
+
         }
         input = new Scanner(System.in);
     }
@@ -44,6 +62,13 @@ public class Menu {
         while(true){
             //Continuamente chama o metodo que ira mostrar a mensagem com opcoes
             continueMessage();
+        }
+    }
+    public void startThread(){
+        for(int i=0;i<string_pair.size();i++){
+            String[] strs = string_pair.elementAt(i);
+            RunThread.solution.add(0.0);
+            new RunThread(strs[0],strs[1],i).start();
         }
     }
     void firstMessage(){
@@ -132,7 +157,7 @@ public class Menu {
             listarEstados();
         }
         //Chama o algoritmo de djakstra para encontrar o caminho
-        String caminho = TestDjakstra.search(origin,destiny);
+        String caminho = TestDjakstra.search(origin,destiny,true);
         //Salva consulta no banco de dados
         mySQL.saveSearch(origin,destiny,caminho);
 

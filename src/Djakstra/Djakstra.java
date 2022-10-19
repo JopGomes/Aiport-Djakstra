@@ -10,11 +10,12 @@ public class Djakstra {
     private ArrayList<Airports> ListOfAirports;
     private Hashtable<String, Hashtable<String,Double> > AdjacenceMatrix;
     private int NumAirports;
+    private Double result;
     public Djakstra(){
         ListOfAirports= new MySQL().getListOfAirports();
         AdjacenceMatrix =new Hashtable<String, Hashtable<String,Double> >();
         NumAirports=0;
-
+        result=-1.0;
         //Criando a matriz de adjacencia
         for(Airports El : ListOfAirports){
             NumAirports++;
@@ -65,17 +66,22 @@ public class Djakstra {
         }
     }
     // Função para printar o caminho e a distancia
-    String printSolution(String sigla, Hashtable<String, String> path, Hashtable<String,Double> dist)
+    String printSolution(String sigla, Hashtable<String, String> path, Hashtable<String,Double> dist, Boolean print)
     {
-        System.out.println("O caminho sera: "+path.get(sigla)+" e a distancia percorrida sera: " + dist.get(sigla) +" Km");
+        if(print){
+            System.out.println("O caminho sera: "+path.get(sigla)+" e a distancia percorrida sera: " + dist.get(sigla) +" Km");
+        }
         return path.get(sigla);
     }
 
+    public Double getDistance()
+    {
+        return result;
+    }
     //Algoritmo de djakstra propriamente dito
-    String AlgorithDjakstra(String sigla1, String sigla2){ // Tentar quebrar em mais metodos
+    String AlgorithDjakstra(String sigla1, String sigla2, Boolean print){ // Tentar quebrar em mais metodos
 
         // Fonte : https://www.geeksforgeeks.org/dijkstras-shortest-path-algorithm-greedy-algo-7/
-        System.out.println( sigla1 + " para " + sigla2);
         Hashtable<String,Double> dist = new Hashtable<String,Double>();  // Saída com a menor distancia
         Hashtable<String,Boolean> sptSet = new Hashtable<String,Boolean>();  // Para saber se um aeroporto já foi visitado
         Hashtable<String, String> path = new Hashtable<String,String>();
@@ -122,12 +128,13 @@ public class Djakstra {
             }
         }
         // print the constructed distance array and path
-        return printSolution(sigla2, path, dist);
+        result = dist.get(sigla2);
+        return printSolution(sigla2, path, dist,print);
     }
     //Metodo publico para rodar o algoritmo e retornar o caminho
-    public String search(String origem,String destino){
+    public String search(String origem,String destino,boolean print){
 
-        return AlgorithDjakstra(origem,destino);
+        return AlgorithDjakstra(origem,destino,print);
     }
 
 }

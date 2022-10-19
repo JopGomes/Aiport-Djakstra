@@ -34,7 +34,7 @@ public class MySQL {
         readTable(dataSource, ListOfAirports);
     }
     public MySQL(){
-        this("root","02136021qQ@","localhost","airportdjakstra");
+        this("root","password","localhost","airportdjakstra");
     }
 
     public ArrayList<Airports> getListOfAirports() {
